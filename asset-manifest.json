@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/miedzyslowami/jetcake-project/static/css/main.05cd2b12.chunk.css",
-    "main.js": "/miedzyslowami/jetcake-project/static/js/main.f19291b2.chunk.js",
-    "main.js.map": "/miedzyslowami/jetcake-project/static/js/main.f19291b2.chunk.js.map",
-    "runtime-main.js": "/miedzyslowami/jetcake-project/static/js/runtime-main.c9a0b304.js",
-    "runtime-main.js.map": "/miedzyslowami/jetcake-project/static/js/runtime-main.c9a0b304.js.map",
-    "static/css/2.2b6691fa.chunk.css": "/miedzyslowami/jetcake-project/static/css/2.2b6691fa.chunk.css",
-    "static/js/2.e3929e0c.chunk.js": "/miedzyslowami/jetcake-project/static/js/2.e3929e0c.chunk.js",
-    "static/js/2.e3929e0c.chunk.js.map": "/miedzyslowami/jetcake-project/static/js/2.e3929e0c.chunk.js.map",
-    "index.html": "/miedzyslowami/jetcake-project/index.html",
-    "precache-manifest.621acbef78e35706e8d4b2005640bf66.js": "/miedzyslowami/jetcake-project/precache-manifest.621acbef78e35706e8d4b2005640bf66.js",
-    "service-worker.js": "/miedzyslowami/jetcake-project/service-worker.js",
-    "static/css/2.2b6691fa.chunk.css.map": "/miedzyslowami/jetcake-project/static/css/2.2b6691fa.chunk.css.map",
-    "static/css/main.05cd2b12.chunk.css.map": "/miedzyslowami/jetcake-project/static/css/main.05cd2b12.chunk.css.map",
-    "static/js/2.e3929e0c.chunk.js.LICENSE": "/miedzyslowami/jetcake-project/static/js/2.e3929e0c.chunk.js.LICENSE",
-    "static/media/daylight-environment-forest-idyllic-459225.jpg": "/miedzyslowami/jetcake-project/static/media/daylight-environment-forest-idyllic-459225.15a2aed1.jpg"
+    "main.css": "/jetcake-project/static/css/main.05cd2b12.chunk.css",
+    "main.js": "/jetcake-project/static/js/main.b524fddc.chunk.js",
+    "main.js.map": "/jetcake-project/static/js/main.b524fddc.chunk.js.map",
+    "runtime-main.js": "/jetcake-project/static/js/runtime-main.388fe867.js",
+    "runtime-main.js.map": "/jetcake-project/static/js/runtime-main.388fe867.js.map",
+    "static/css/2.2b6691fa.chunk.css": "/jetcake-project/static/css/2.2b6691fa.chunk.css",
+    "static/js/2.e3929e0c.chunk.js": "/jetcake-project/static/js/2.e3929e0c.chunk.js",
+    "static/js/2.e3929e0c.chunk.js.map": "/jetcake-project/static/js/2.e3929e0c.chunk.js.map",
+    "index.html": "/jetcake-project/index.html",
+    "precache-manifest.44d71a47883a8d03c480938f05479b69.js": "/jetcake-project/precache-manifest.44d71a47883a8d03c480938f05479b69.js",
+    "service-worker.js": "/jetcake-project/service-worker.js",
+    "static/css/2.2b6691fa.chunk.css.map": "/jetcake-project/static/css/2.2b6691fa.chunk.css.map",
+    "static/css/main.05cd2b12.chunk.css.map": "/jetcake-project/static/css/main.05cd2b12.chunk.css.map",
+    "static/js/2.e3929e0c.chunk.js.LICENSE": "/jetcake-project/static/js/2.e3929e0c.chunk.js.LICENSE",
+    "static/media/daylight-environment-forest-idyllic-459225.jpg": "/jetcake-project/static/media/daylight-environment-forest-idyllic-459225.15a2aed1.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c9a0b304.js",
+    "static/js/runtime-main.388fe867.js",
     "static/css/2.2b6691fa.chunk.css",
     "static/js/2.e3929e0c.chunk.js",
     "static/css/main.05cd2b12.chunk.css",
-    "static/js/main.f19291b2.chunk.js"
+    "static/js/main.b524fddc.chunk.js"
   ]
 }
