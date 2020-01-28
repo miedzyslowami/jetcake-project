@@ -5,7 +5,7 @@ import Section from 'react-bulma-components/lib/components/section';
 import Container from 'react-bulma-components/lib/components/container';
 import HeroImage from '../Assets/daylight-environment-forest-idyllic-459225.jpg';
 
-class Main extends Component {
+class Home extends Component {
     render() {
         return (
             <>
@@ -47,4 +47,4 @@ Fruitcake pastry toffee I love gummi bears chocolate bar jelly-o. Liquorice jell
     }
 }
 
-export default Main;
+export default Home;
