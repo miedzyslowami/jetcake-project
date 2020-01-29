@@ -13,7 +13,7 @@ class Home extends Component {
                     <Hero>
                         <Hero.Body>
                             <Container>
-                                <img alt="nature" src={HeroImage} />
+                                <img alt='nature' src={HeroImage} />
                             </Container>
                         </Hero.Body>
                     </Hero>
