@@ -77,29 +77,41 @@ const Form = () => {
             </Field>
             <Field>
                 <Label htmlFor='birthday'>Address</Label>
-                <Label >Date of birth</Label>
+                <Label>Date of birth</Label>
                 <Control>
-                    <Input name='birthday' type='number' placeholder='birthday' value={birthday} onChange={e => setBirthday(e.target.value)} />
+                    <Input name='birthday' type='date' placeholder='birthday' value={birthday} onChange={e => setBirthday(e.target.value)} />
                 </Control>
             </Field>
             <Field>
-                <Label>Security Question 1</Label>
+                <Label htmlFor='question1'>Security question 1</Label>
                 <Control>
                     <Input type='text' placeholder='Question 1' name='question1' value={question1} onChange={e => setQuestion1(e.target.value)} />
+                </Control>
+                <Label htmlFor='answear1'>Security answear 1</Label>
+                <Control>
                     <Input type='text' placeholder='Answear 1' name='answear1' value={answear1} onChange={e => setAnswear1(e.target.value)} />
                 </Control></Field>
             <Field>
-                <Label>Security Question 2</Label>
+                <Label htmlFor='question2'>Security question 2</Label>
                 <Control>
                     <Input type='text' placeholder='Question 2' name='question2' value={question2} onChange={e => setQuestion2(e.target.value)} />
+                </Control>
+                <Control>
+                    <Label htmlFor='answear2'>Security answear 2</Label>
                     <Input type='text' placeholder='Answear 2' name='answear2' value={answear2} onChange={e => setAnswear2(e.target.value)} />
-                </Control></Field>
+
+                </Control>
+            </Field>
             <Field>
-                <Label>Security Question 3</Label>
+                <Label htmlFor='question3'>Security question 3</Label>
                 <Control>
                     <Input type='text' placeholder='Question 3' name='question3' value={question3} onChange={e => setQuestion3(e.target.value)} />
+                </Control>
+                <Label htmlFor='answear3'>Security answear 3</Label>
+                <Control>
                     <Input type='text' placeholder='Answear 3' name='answear3' value={answear3} onChange={e => setAnswear3(e.target.value)} />
-                </Control></Field>
+                </Control>
+            </Field>
             <Field kind='group'>
                 <Control>
                     <Button className='is-primary' type='submit'>Update your data</Button>
