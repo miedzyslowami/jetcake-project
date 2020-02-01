@@ -47,10 +47,12 @@ class Firebase {
     }
 
     addUserAvatar(avatar) {
-        if (!this.auth.currentUser) {
-            return alert('Access denied')
+        if(avatar){
+            if (!this.auth.currentUser) {
+                return alert('Access denied')
+            }
+            return this.storage.ref(`avatars/${this.auth.currentUser.uid}`).put(avatar)
         }
-        return this.storage.ref(`avatars/${this.auth.currentUser.uid}`).put(avatar)
     }
 
     async getUserData() {

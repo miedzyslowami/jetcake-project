@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Hero from 'react-bulma-components/lib/components/hero'
 import Heading from 'react-bulma-components/lib/components/heading'
+import Image from 'react-bulma-components/lib/components/image'
 import Section from 'react-bulma-components/lib/components/section'
 import Container from 'react-bulma-components/lib/components/container'
 import HeroImage from '../Assets/daylight-environment-forest-idyllic-459225.jpg'
@@ -9,15 +10,9 @@ class Home extends Component {
     render() {
         return (
             <>
-                <Section>
-                    <Hero>
-                        <Hero.Body>
-                            <Container>
-                                <img alt='nature' src={HeroImage} />
-                            </Container>
-                        </Hero.Body>
-                    </Hero>
-                </Section>
+                <Hero>
+                    <Image alt='nature' src={HeroImage} />
+                </Hero>
                 <Section>
                     <Hero>
                         <Hero.Body>

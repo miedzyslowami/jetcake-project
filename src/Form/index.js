@@ -50,7 +50,7 @@ const Form = () => {
         const { address, phone, birthday, question1, answear1, question2, answear2, question3, answear3 } = event.target.elements
         try {
             await firebase.getCurrentUser()
-            await firebase.addUserData(address.value, phone.value, birthday.value, question1.value, answear1.value, question2.value, answear2.value, question3.value, answear3.value)
+            await firebase.addUserData(address.value, phone.value, birthday.value, question1.value, answear1.value, question2.value, answear2.value, question3.value, answear3.value).then(alert('Profile updated'))
             await firebase.addUserAvatar(avatar)
         } catch (error) {
             alert(error)
@@ -106,6 +106,9 @@ const Form = () => {
                 </Control>
                 <Control>
                     <Link to='/' className='button is-primary is-outlined' color='link'>Cancel</Link>
+                </Control>
+                <Control>
+                    <Button className='is-danger is-outlined' onClick={() => firebase.logout()}>Sign out</Button>
                 </Control>
             </Field>
         </form>

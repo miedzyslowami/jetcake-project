@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import { Hero, Section, Heading, Container, Content } from 'react-bulma-components'
-import Button from 'react-bulma-components/lib/components/button'
 import Form from 'Form'
 import firebase from '../base'
 
@@ -15,7 +14,6 @@ class Profile extends Component {
                                 <Heading className='is-size-4'>Hello {firebase.getCurrentUser()}!</Heading>
                                 <Content>
                                     <Form userData={firebase.getUserData().then((userData) => userData)} />
-                                    <Button className='is-danger is-outlined' onClick={() => firebase.logout()}>Sign out</Button>
                                 </Content>
                             </Container>
                         </Hero.Body>
