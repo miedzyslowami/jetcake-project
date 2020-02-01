@@ -13,7 +13,7 @@ import Register from 'Register'
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename='jetcake-project'>
         <Navbar className='is-primary is-size-4'>
           <Navbar.Brand>
             <p className='navbar-item'>Jetcake-project</p>
@@ -21,9 +21,9 @@ function App() {
           </Navbar.Brand>
           <Navbar.Menu>
             <Navbar.Container>
-              <Link className='navbar-item' to='/'> Home</Link>
-              <Link className='navbar-item' to='/profile'>Profile</Link>
-              <Link className='navbar-item' to='/login'>Login</Link>
+              <Link className='navbar-item' to='/'> Home </Link>
+              <Link className='navbar-item' to='/profile'> Profile </Link>
+              <Link className='navbar-item' to='/login'> Login </Link>
             </Navbar.Container>
           </Navbar.Menu>
         </Navbar>
