@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/jetcake-project/static/css/main.e61ea385.chunk.css",
-    "main.js": "/jetcake-project/static/js/main.5e536d69.chunk.js",
-    "main.js.map": "/jetcake-project/static/js/main.5e536d69.chunk.js.map",
+    "main.js": "/jetcake-project/static/js/main.57cd305c.chunk.js",
+    "main.js.map": "/jetcake-project/static/js/main.57cd305c.chunk.js.map",
     "runtime-main.js": "/jetcake-project/static/js/runtime-main.388fe867.js",
     "runtime-main.js.map": "/jetcake-project/static/js/runtime-main.388fe867.js.map",
-    "static/css/2.76f6433b.chunk.css": "/jetcake-project/static/css/2.76f6433b.chunk.css",
-    "static/js/2.d45c4fc6.chunk.js": "/jetcake-project/static/js/2.d45c4fc6.chunk.js",
-    "static/js/2.d45c4fc6.chunk.js.map": "/jetcake-project/static/js/2.d45c4fc6.chunk.js.map",
+    "static/css/2.ef9e76af.chunk.css": "/jetcake-project/static/css/2.ef9e76af.chunk.css",
+    "static/js/2.e40013e5.chunk.js": "/jetcake-project/static/js/2.e40013e5.chunk.js",
+    "static/js/2.e40013e5.chunk.js.map": "/jetcake-project/static/js/2.e40013e5.chunk.js.map",
     "index.html": "/jetcake-project/index.html",
-    "precache-manifest.76d2ae30fe83728c261b47298c5ae641.js": "/jetcake-project/precache-manifest.76d2ae30fe83728c261b47298c5ae641.js",
+    "precache-manifest.85e1cc5e27872f3079c25fe887626e11.js": "/jetcake-project/precache-manifest.85e1cc5e27872f3079c25fe887626e11.js",
     "service-worker.js": "/jetcake-project/service-worker.js",
-    "static/css/2.76f6433b.chunk.css.map": "/jetcake-project/static/css/2.76f6433b.chunk.css.map",
+    "static/css/2.ef9e76af.chunk.css.map": "/jetcake-project/static/css/2.ef9e76af.chunk.css.map",
     "static/css/main.e61ea385.chunk.css.map": "/jetcake-project/static/css/main.e61ea385.chunk.css.map",
-    "static/js/2.d45c4fc6.chunk.js.LICENSE": "/jetcake-project/static/js/2.d45c4fc6.chunk.js.LICENSE",
+    "static/js/2.e40013e5.chunk.js.LICENSE": "/jetcake-project/static/js/2.e40013e5.chunk.js.LICENSE",
     "static/media/daylight-environment-forest-idyllic-459225.jpg": "/jetcake-project/static/media/daylight-environment-forest-idyllic-459225.15a2aed1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.388fe867.js",
-    "static/css/2.76f6433b.chunk.css",
-    "static/js/2.d45c4fc6.chunk.js",
+    "static/css/2.ef9e76af.chunk.css",
+    "static/js/2.e40013e5.chunk.js",
     "static/css/main.e61ea385.chunk.css",
-    "static/js/main.5e536d69.chunk.js"
+    "static/js/main.57cd305c.chunk.js"
   ]
 }
