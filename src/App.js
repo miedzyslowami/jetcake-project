@@ -11,16 +11,22 @@ import Login from 'Login'
 import Register from 'Register'
 
 function App() {
+  const [isActive, setisActive] = React.useState(false);
+
   return (
     <AuthProvider>
       <Router basename='jetcake-project'>
         <Navbar className='is-primary is-size-4'>
-          <Navbar.Brand>
+          <Navbar.Brand   onClick={() => {
+              setisActive(!isActive);
+            }}>
             <p className='navbar-item'>Jetcake-project</p>
             <Navbar.Burger />
           </Navbar.Brand>
-          <Navbar.Menu>
-            <Navbar.Container>
+          <Navbar.Menu className={isActive ? 'is-active' : ''}>
+            <Navbar.Container onClick={()=> {
+              setisActive(false)
+            }}>
               <Link className='navbar-item' to='/'> Home </Link>
               <Link className='navbar-item' to='/profile'> Profile </Link>
               <Link className='navbar-item' to='/login'> Login </Link>

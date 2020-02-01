@@ -119,7 +119,9 @@ const Form = () => {
                 <Control>
                     <Link to='/' className='button is-primary is-outlined' color='link'>Cancel</Link>
                 </Control>
-                <Control>
+            </Field>
+            <Field>
+            <Control>
                     <Button className='is-danger is-outlined' onClick={() => firebase.logout()}>Sign out</Button>
                 </Control>
             </Field>
