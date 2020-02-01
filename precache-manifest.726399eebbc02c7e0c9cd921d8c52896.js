@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a259c1540c14bb92526e46dbf404a2b5",
+    "revision": "24e616707a22baf498cfb2e6faaf581e",
     "url": "/jetcake-project/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jetcake-project/static/css/2.76f6433b.chunk.css"
   },
   {
-    "revision": "a90de7bb78ded7dd68ef",
+    "revision": "588564c21490302254d3",
     "url": "/jetcake-project/static/css/main.e61ea385.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jetcake-project/static/js/2.d45c4fc6.chunk.js.LICENSE"
   },
   {
-    "revision": "a90de7bb78ded7dd68ef",
-    "url": "/jetcake-project/static/js/main.4421cca0.chunk.js"
+    "revision": "588564c21490302254d3",
+    "url": "/jetcake-project/static/js/main.a47b7427.chunk.js"
   },
   {
     "revision": "992ebb6a39c92bcb8f39",
