@@ -2,26 +2,39 @@
 
 **[Project preview](https://miedzyslowami.github.io/jetcake-project/)**
 
-### **Features:**  
+## **I.Features:**  
 
-## **1.Firebase authorization**
-      emial identification, private route
-## **2.Firebase database**
-      userdata storage
-## **3.Firebase storage**
-      user image storage
-## **4.Page routing**
+**1. Firebase authorization** :
+      authorisation with emial and password, secured route to profile page;
+**2. Firebase database** :
+      additional userdata stored in firebase database 
+**3. Firebase storage** :
+      user avatar stored in firebase storage
+**4. Page routing** :
+      page routing with react-router
+**5. Gh-pages preview** :
+      additional script that builds the app for production to the `build` folder and deploys it to gh-pages preview.
+      
+## **II.Installation:**
+1. Clone repository.
+2. `yarn install`
+3. Create Firebase project and add following viarables from Firebase console to your .env (root) :
+     ` REACT_APP_FIREBASE_KEY=`
+     ` REACT_APP_FIREBASE_DOMAIN=`
+     ` REACT_APP_FIREBASE_DATABASE=`
+      `REACT_APP_FIREBASE_PROJECT_ID=`
+      `REACT_APP_FIREBASE_STORAGE_BUCKET=`
+     ` REACT_APP_FIREBASE_SENDER_ID=`
 
-## **5.Gh-pages preview**
-
+You must configure Firebase authorisation with email and password, firebase firestore and firebase storage (in storage create folder called 'avatars').
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-### **Available Scripts:**
+### **III.Available Scripts:**
 
 In the project directory, you can run:
 
-### `yarn start`
+## `yarn start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -29,12 +42,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `yarn test`
+## `yarn test`
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+## `yarn build`
 
 Builds the app for production to the `build` folder.<br />
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -54,7 +67,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-### `yarn run deploy`
+## `yarn run deploy`
 Builds the app for production to the `build` folder and deploys it to gh-pages preview.
 
 ## Learn More
