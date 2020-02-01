@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/jetcake-project/static/css/main.e61ea385.chunk.css",
-    "main.js": "/jetcake-project/static/js/main.a47b7427.chunk.js",
-    "main.js.map": "/jetcake-project/static/js/main.a47b7427.chunk.js.map",
+    "main.js": "/jetcake-project/static/js/main.f887153c.chunk.js",
+    "main.js.map": "/jetcake-project/static/js/main.f887153c.chunk.js.map",
     "runtime-main.js": "/jetcake-project/static/js/runtime-main.388fe867.js",
     "runtime-main.js.map": "/jetcake-project/static/js/runtime-main.388fe867.js.map",
     "static/css/2.76f6433b.chunk.css": "/jetcake-project/static/css/2.76f6433b.chunk.css",
     "static/js/2.d45c4fc6.chunk.js": "/jetcake-project/static/js/2.d45c4fc6.chunk.js",
     "static/js/2.d45c4fc6.chunk.js.map": "/jetcake-project/static/js/2.d45c4fc6.chunk.js.map",
     "index.html": "/jetcake-project/index.html",
-    "precache-manifest.726399eebbc02c7e0c9cd921d8c52896.js": "/jetcake-project/precache-manifest.726399eebbc02c7e0c9cd921d8c52896.js",
+    "precache-manifest.d4b3c1d36490004fa204aa04a4a82f1f.js": "/jetcake-project/precache-manifest.d4b3c1d36490004fa204aa04a4a82f1f.js",
     "service-worker.js": "/jetcake-project/service-worker.js",
     "static/css/2.76f6433b.chunk.css.map": "/jetcake-project/static/css/2.76f6433b.chunk.css.map",
     "static/css/main.e61ea385.chunk.css.map": "/jetcake-project/static/css/main.e61ea385.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.76f6433b.chunk.css",
     "static/js/2.d45c4fc6.chunk.js",
     "static/css/main.e61ea385.chunk.css",
-    "static/js/main.a47b7427.chunk.js"
+    "static/js/main.f887153c.chunk.js"
   ]
 }
