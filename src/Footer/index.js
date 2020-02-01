@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Content from 'react-bulma-components/lib/components/content';
-import Container from 'react-bulma-components/lib/components/container';
-import FooterBulma from 'react-bulma-components/lib/components/footer';
+import React, { Component } from 'react'
+import Content from 'react-bulma-components/lib/components/content'
+import Container from 'react-bulma-components/lib/components/container'
+import FooterBulma from 'react-bulma-components/lib/components/footer'
 
 class Footer extends Component {
     render() {
@@ -17,4 +17,4 @@ class Footer extends Component {
     }
 }
 
-export default Footer;
+export default Footer

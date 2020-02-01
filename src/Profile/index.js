@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
-import { Hero, Section, Image, Card, Media, Container, Content, Button } from 'react-bulma-components';
-import Form from 'Form';
-import app from '../base';
+import React, { Component } from 'react'
+import { Hero, Section, Heading, Container, Content } from 'react-bulma-components'
+import Button from 'react-bulma-components/lib/components/button'
+import Form from 'Form'
+import firebase from '../base'
 
 class Profile extends Component {
     render() {
@@ -11,25 +12,11 @@ class Profile extends Component {
                     <Hero>
                         <Hero.Body>
                             <Container>
-                                <Card>
-                                    <Card.Header>
-                                        <Card.Header.Title>Your profile details</Card.Header.Title>
-                                    </Card.Header>
-                                    <Card.Content>
-                                        <Media>
-                                            <Media.Item renderAs='figure' position='left'>
-                                                <Image size={128} alt='128x128' src='http://bulma.io/images/placeholders/128x128.png' />
-                                            </Media.Item>
-                                        </Media>
-                                        <Content>
-                                            <Form />
-                                        </Content>
-                                    </Card.Content>
-                                    <Card.Footer>
-                                        <Card.Footer.Item></Card.Footer.Item>
-                                        <Button className='is-primary is-outlined' onClick={() => app.auth().signOut()}>Sign out</Button>
-                                    </Card.Footer>
-                                </Card>
+                                <Heading className='is-size-4'>Hello {firebase.getCurrentUser()}!</Heading>
+                                <Content>
+                                    <Form userData={firebase.getUserData().then((userData) => userData)} />
+                                    <Button className='is-danger is-outlined' onClick={() => firebase.logout()}>Sign out</Button>
+                                </Content>
                             </Container>
                         </Hero.Body>
                     </Hero>
@@ -39,4 +26,4 @@ class Profile extends Component {
     }
 }
 
-export default Profile;
+export default Profile

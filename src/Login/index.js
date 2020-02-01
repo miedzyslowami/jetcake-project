@@ -1,32 +1,31 @@
-import React, { useCallback, useContext } from 'react';
-import { withRouter, Redirect } from 'react-router';
-import { Link } from 'react-router-dom';
-import app from '../base';
-import { AuthContext } from '../Auth';
-import { Hero, Section, Heading, Card, Container, Button } from 'react-bulma-components';
-import { Field, Control, Label } from 'react-bulma-components/lib/components/form';
+import React, { useCallback, useContext } from 'react'
+import { withRouter, Redirect } from 'react-router'
+import { Link } from 'react-router-dom'
+import firebase from '../base'
+import { AuthContext } from '../Auth'
+import { Hero, Section, Heading, Card, Container } from 'react-bulma-components'
+import Button from 'react-bulma-components/lib/components/button'
+import { Field, Control, Label } from 'react-bulma-components/lib/components/form'
 
 const Login = ({ history }) => {
   const handleLogin = useCallback(
     async event => {
-      event.preventDefault();
-      const { email, password } = event.target.elements;
+      event.preventDefault()
+      const { email, password } = event.target.elements
       try {
-        await app
-          .auth()
-          .signInWithEmailAndPassword(email.value, password.value);
-        history.push('/');
+        await firebase.login(email.value, password.value)
+        history.push('/profile')
       } catch (error) {
-        alert(error);
+        alert(error)
       }
     },
     [history]
-  );
+  )
 
-  const { currentUser } = useContext(AuthContext);
+  const { currentUser } = useContext(AuthContext)
 
   if (currentUser) {
-    return <Redirect to='/' user={currentUser} />;
+    return <Redirect to='/profile' user={currentUser} />
   }
 
   return (
@@ -65,7 +64,7 @@ const Login = ({ history }) => {
         </Hero.Body>
       </Hero>
     </Section>
-  );
-};
+  )
+}
 
-export default withRouter(Login);
+export default withRouter(Login)

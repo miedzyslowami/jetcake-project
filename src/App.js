@@ -1,14 +1,14 @@
-import React from 'react';
-import './App.scss';
-import Home from 'Home';
-import Profile from 'Profile';
-import Footer from 'Footer';
-import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
-import Navbar from 'react-bulma-components/lib/components/navbar';
-import { AuthProvider } from 'Auth';
-import PrivateRoute from 'PrivateRoute';
-import Login from 'Login';
-import Register from 'Register';
+import React, {  } from 'react'
+import './App.scss'
+import Home from 'Home'
+import Profile from 'Profile'
+import Footer from 'Footer'
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Navbar from 'react-bulma-components/lib/components/navbar'
+import { AuthProvider } from 'Auth'
+import PrivateRoute from 'PrivateRoute'
+import Login from 'Login'
+import Register from 'Register'
 
 function App() {
   return (
@@ -28,7 +28,7 @@ function App() {
           </Navbar.Menu>
         </Navbar>
         <Switch>
-        <PrivateRoute path='/profile' component={Profile} />
+          <PrivateRoute path='/profile' component={Profile} />
           <Route exact path='/'>
             <Home />
           </Route>
@@ -42,7 +42,7 @@ function App() {
         <Footer />
       </Router>
     </AuthProvider>
-  );
+  )
 }
 
-export default App;
+export default App
