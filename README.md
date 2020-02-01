@@ -4,15 +4,15 @@
 
 ## **I.Features:**  
 
-**1. Firebase authorization** :
+**1. Firebase authorization**:  
       authorisation with emial and password, secured route to profile page  
-**2. Firebase database** :
+**2. Firebase database**:  
       additional userdata stored in firebase database  
-**3. Firebase storage** :
+**3. Firebase storage**:  
       user avatar stored in firebase storage  
-**4. Page routing** :
+**4. Page routing**:  
       page routing with react-router  
-**5. Gh-pages preview** :
+**5. Gh-pages preview**:  
       additional script that builds the app for production to the `build` folder and deploys it to gh-pages preview.  
       
 ## **II.Installation:**
