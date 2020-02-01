@@ -24,12 +24,12 @@
 1. Clone repository.
 2. `yarn install`
 3. Create Firebase project and add following viarables from Firebase console to your .env (root) :
-     ` REACT_APP_FIREBASE_KEY=`
-     ` REACT_APP_FIREBASE_DOMAIN=`
-     ` REACT_APP_FIREBASE_DATABASE=`
-      `REACT_APP_FIREBASE_PROJECT_ID=`
-      `REACT_APP_FIREBASE_STORAGE_BUCKET=`
-     ` REACT_APP_FIREBASE_SENDER_ID=`
+     ` REACT_APP_FIREBASE_KEY=`  
+     ` REACT_APP_FIREBASE_DOMAIN=`  
+     ` REACT_APP_FIREBASE_DATABASE=`  
+      `REACT_APP_FIREBASE_PROJECT_ID=`  
+      `REACT_APP_FIREBASE_STORAGE_BUCKET=`  
+     ` REACT_APP_FIREBASE_SENDER_ID=`  
 
 You must configure Firebase authorisation with email and password, firebase firestore and firebase storage (in storage create folder called 'avatars').
 
