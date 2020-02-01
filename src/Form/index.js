@@ -76,7 +76,6 @@ const Form = () => {
                 </Control>
             </Field>
             <Field>
-                <Label htmlFor='birthday'>Address</Label>
                 <Label>Date of birth</Label>
                 <Control>
                     <Input name='birthday' type='date' placeholder='birthday' value={birthday} onChange={e => setBirthday(e.target.value)} />
@@ -121,7 +120,7 @@ const Form = () => {
                 </Control>
             </Field>
             <Field>
-            <Control>
+                <Control>
                     <Button className='is-danger is-outlined' onClick={() => firebase.logout()}>Sign out</Button>
                 </Control>
             </Field>
